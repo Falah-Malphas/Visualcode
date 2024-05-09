@@ -1,0 +1,33 @@
+<form action="proses.php">
+            <label>
+                Nama <br>
+                <input type="text" placeholder="masukkan nama">
+            </label>
+            <br>
+            <br>
+            <label>
+                Jenis kelamin <br>
+                <select>
+                    <option>Laki-laki</option>
+                    <option>Perempuan</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            Skill <br>
+            <label>
+                <input type="checkbox"> Html
+            </label>
+            <label>
+                <input type="checkbox"> CSS
+            </label>
+            <br>
+            <br>
+            <label>
+            Pesan <br>
+            <textarea placeholder="masukkan pesan"></textarea>
+            </label>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
