@@ -9,11 +9,11 @@ class kucing {
    	    $this->corak = $corak;
         $this->warna_mata = $warna_mata;
     }
-    public function meow() { echo “Meow...”; }
+    public function meow() { echo “Meow”; }
 
-    public function makan() { echo “Kucing sedang makan.”; }
+    public function makan() { echo “Kucing_sedang_makan.”; }
     
-    public function tidur() { echo “Kucing sedang tidur.”; }
+    public function tidur() { echo “Kucing_sedang_tidur.”; }
 }
 
 $oyen = new Kucing();
